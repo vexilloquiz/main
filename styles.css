@@ -65,9 +65,9 @@
     }
 
     .title-image {
-      width: 50%;
+      width: 60%;
       transform: rotate(19deg);
-      position: absolute;
+      position: static;
       right: 25%;
     }
     @media (max-width: 900px) {
