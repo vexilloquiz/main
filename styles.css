@@ -83,6 +83,7 @@
         width: 90%;
         position: static;
         transform: rotate(0);
+        align-self: center;
       }
     }
 
