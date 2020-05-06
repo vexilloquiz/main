@@ -35,11 +35,6 @@
       padding: 3% 10% 7%;
     }
 
-    @media (max-width: 900px) {
-      .container-fluid {
-        padding: 3% 2% 3%;
-        }
-    }
     .logo {
       font-family: "Ubuntu", monospace;
       font-weight: bold;
@@ -74,17 +69,6 @@
       transform: rotate(21deg);
       position: static;
       right: 25%;
-    }
-    @media (max-width: 900px) {
-      #title {
-        text-align: center;
-      }
-      .title-image {
-        width: 90%;
-        position: static;
-        transform: rotate(0);
-        align-self: center;
-      }
     }
 
     .feature-icon {
@@ -164,4 +148,17 @@
 
     .social-icon {
       margin: 20px 10px;
+    }
+    @media (max-width: 900px) {
+       .container-fluid {
+        padding: 3% 2% 3%;
+        }
+      #title {
+        text-align: center;
+      }
+      .title-image {
+        position: static;
+        transform: rotate(0);
+        align-self: center;
+      }
     }
