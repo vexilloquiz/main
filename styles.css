@@ -154,6 +154,9 @@
       #title {
         text-align: center;
       }
+      #press {
+        font-size: 1.2rem;
+      }
       .title-image {
         width: 90%;
         position: static;
