@@ -158,13 +158,13 @@
         font-size: 1.2rem;
       }
       .title-image {
-        width: 90%;
+        width: 80%;
         position: static;
         transform: rotate(0);
         right: 0%;
       }
       .container {
         width: 100%;
-        padding: 3% 2% 7%;
+        padding: 3% 1% 7%;
       }
     }
